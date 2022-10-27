@@ -1,25 +1,104 @@
-<nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand">NETFLISS</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/form">Form</a>
-        </li> 
-      </ul>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+<body>  
+  <div class="container-fluid bg-danger text-white">
+    <img src="../assets/logoleones.jpg" class="rounded-circle" alt="logo" width="50" height="50">
+    <a class="navbar-brand" href="#">      
+      UNIVERSIDAD DE GUADALAJARA
+    </a>
   </div>
-</nav>
+ 
+  <header>
+    <nav class="navbar navbar-expand-lg bg-secondary">
+      <img src="../assets/logopeliculas.png"  alt="logo" width="40" height="40">
+      <div class="container-fluid">
+        <a class="navbar-brand">NETFLISS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/form">Form</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-<br />
 
-<div class="container">
-  <router-outlet></router-outlet>
-</div>
+  <br />
+  
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+  <br />
+
+
+  <footer>
+    <div class="container-fluid">
+    
+      <div class="row p-5 pb- bg-dark text-white">
+    
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h3">Netfliss</p>
+          <p class="text-secondary">Iván Dalí García Torres.</p>
+          <p class="text-secondary">ID: 955346898</p>
+          <p class="text-secondary"> Ivandaligarcia@gmail.com</p>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h5 mb-3">SERIES</p>
+          <div class="mb-2">
+            <a href="#" class="text-secondary text-decoration-none">El juego.</a>
+          </div>
+          <div class="mb-2">
+            <a href="#" class="text-secondary text-decoration-none">Renegados.</a>
+          </div>
+          <div class="mb-2">
+            <a href="#" class="text-secondary text-decoration-none">Nacos Mexicanos.</a>
+          </div>
+    
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h5 mb-3">PELICULAS</p>
+          <div class="mb-2">
+            <a href="#" class="text-secondary text-decoration-none">Pago por evento</a>
+          </div>
+          <div class="mb-2">
+            <a href="#" class="text-secondary text-decoration-none">Plan VIP</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h5 mb-3">TERMINOS / CONDICIONES</p>
+          <div class="mb-2">
+            <a href="#" class="text-secondary text-decoration-none">Políticas de priv.</a>
+          </div>
+          <div class="mb-2">
+            <a href="#" class="text-secondary text-decoration-none">Derechos Autor</a>
+          </div>
+        </div>
+        <!-- Derechos de autor al final  -->
+        <div class="col-xs-12">
+          <p class="tetx-white text-center">José Francisco Jafet Pérez López.</p>
+          <p class="tetx-white text-center">MATERIA: Conceptualización de entornos de desarrollo de aplicaciones y
+            servicios.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>
+
+
